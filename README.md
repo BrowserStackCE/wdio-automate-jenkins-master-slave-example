@@ -16,7 +16,7 @@ Make sure you have the following prerequisites installed:
 1. **Clone this repository:**
 
     ```bash
-    git clone https://github.com/sanketsmali03/wdio_bstack_automate_sample.git
+    git clone https://github.com/BrowserStackCE/wdio-automate-jenkins-master-slave-example
     cd wdio_bstack_automate_sample
     ```
 
@@ -65,7 +65,7 @@ Make sure you have the following prerequisites installed:
                                     echo "Current directory: ${pwd()}"
 
                                     // Clone the repository
-                                    git branch: 'main', url: 'https://github.com/sanketsmali03/wdio_bstack_automate_sample.git'
+                                    git branch: 'main', url: 'https://github.com/BrowserStackCE/wdio-automate-jenkins-master-slave-example'
                                     withEnv([
                                         'BROWSERSTACK_USERNAME=' + env.BROWSERSTACK_USERNAME,
                                         'BROWSERSTACK_ACCESS_KEY=' + env.BROWSERSTACK_ACCESS_KEY
